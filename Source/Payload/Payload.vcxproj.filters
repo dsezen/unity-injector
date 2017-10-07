@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\Source Files">
+      <UniqueIdentifier>{6b97ae9b-a795-4f0b-812f-fb2632dce293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{95db7c5a-2b56-499a-82a7-4cea6a9458d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header Files">
+      <UniqueIdentifier>{54edf08f-3606-40d8-a39c-5f5f31480d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files">
+      <UniqueIdentifier>{2af0890d-0b0e-4a8b-b601-2ea6a5c86d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mono">
+      <UniqueIdentifier>{8d74df31-4367-49f6-9329-8ff731b9f9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mono\Header Files">
+      <UniqueIdentifier>{e4e86efb-3c7b-4d2d-9044-2c5bc6b141f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mono\Source Files">
+      <UniqueIdentifier>{8b05dd76-aa48-4006-9b4f-aa3cd446c681}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\payload_dllmain.cpp">
+      <Filter>Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\common_console.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\common_log.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\common_error.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mono\src\mono_image.cpp">
+      <Filter>Mono\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mono\src\mono_assembly.cpp">
+      <Filter>Mono\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mono\src\mono.cpp">
+      <Filter>Mono\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mono\src\mono_domain.cpp">
+      <Filter>Mono\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payload_cmd_processor.cpp">
+      <Filter>Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payload_cmd_assembly.cpp">
+      <Filter>Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payload_cmd_base.cpp">
+      <Filter>Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\common_string.cpp">
+      <Filter>Common\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payload_cmd_image.cpp">
+      <Filter>Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payload_customs.cpp">
+      <Filter>Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mono\src\mono_security.cpp">
+      <Filter>Mono\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\inc\common_console.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\common_error.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\common_log.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_types.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_image.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_func_helpers.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_assembly.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_glib.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_domain.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\payload_cmd_processor.h">
+      <Filter>Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\payload_cmd_assembly.h">
+      <Filter>Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\payload_cmd_base.h">
+      <Filter>Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\common_string.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\payload_cmd_image.h">
+      <Filter>Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\payload_customs.h">
+      <Filter>Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mono\inc\mono_security.h">
+      <Filter>Mono\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

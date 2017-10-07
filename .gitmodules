@@ -1,0 +1,9 @@
+[submodule "Thirdparty/imgui"]
+	path = Thirdparty/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Thirdparty/Blackbone"]
+	path = Thirdparty/Blackbone
+	url = https://github.com/DarthTon/Blackbone.git
+[submodule "Thirdparty/minhook"]
+	path = Thirdparty/minhook
+	url = git@github.com:TsudaKageyu/minhook.git
